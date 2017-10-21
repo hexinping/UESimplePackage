@@ -303,3 +303,215 @@ LogInit: Object subsystem initialized
 [2017.10.21-06.48.30:750][597]LogSavePackage: Save=1.34ms
 [2017.10.21-06.48.30:750][597]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/NewUserDefinedStruct0F9CD7E44630E84BA5BD2B9B73E287E4.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/NewUserDefinedStruct.uasset'
 [2017.10.21-06.48.30:752][597]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/NewUserDefinedStruct.uasset
+[2017.10.21-06.55.16:990][527]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_2.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.16:990][527]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_3.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.16:990][527]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_4.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.16:990][527]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_5.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.16:990][527]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_6.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.16:990][527]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_7.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.16:990][527]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_8.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.16:990][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0).  Import failed...
+[2017.10.21-06.55.16:990][527]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_0.HorizontalBoxSlot_0''
+[2017.10.21-06.55.41:371][ 32]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_2.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.41:371][ 32]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_3.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.41:371][ 32]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_4.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.41:371][ 32]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_5.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.41:371][ 32]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_6.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.41:371][ 32]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_7.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.41:371][ 32]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_8.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.41:371][ 32]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_8:W_GameHUD_C_9.WidgetTree.HorizontalBox_0
+[2017.10.21-06.55.41:371][ 32]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UMG/W_GameHUD.W_GameHUD:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0).  Import failed...
+[2017.10.21-06.55.41:371][ 32]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_0.HorizontalBoxSlot_0''
+[2017.10.21-07.00.28:130][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/W_GameHUD" FILE="D:/UE/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset" SILENT=true
+[2017.10.21-07.00.28:140][773]LogSavePackage: Save=7.94ms
+[2017.10.21-07.00.28:140][773]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/W_GameHUD668936BF440E66D55E90F2AE0D52CCE1.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset'
+[2017.10.21-07.00.28:142][773]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset
+[2017.10.21-07.00.29:969][992]BlueprintLog: New page: Compile W_GameHUD
+[2017.10.21-07.02.44:220][ 31]BlueprintLog: New page: Compile W_GameHUD
+[2017.10.21-07.02.44:325][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/W_GameHUD" FILE="D:/UE/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset" SILENT=true
+[2017.10.21-07.02.44:336][ 31]LogSavePackage: Save=9.56ms
+[2017.10.21-07.02.44:336][ 31]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/W_GameHUD66B173914394BBA0B338608DC7985B09.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset'
+[2017.10.21-07.02.44:338][ 31]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset
+[2017.10.21-07.03.17:608][862]BlueprintLog: New page: Compile W_GameHUD
+[2017.10.21-07.03.17:767][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/W_GameHUD" FILE="D:/UE/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset" SILENT=true
+[2017.10.21-07.03.17:779][862]LogSavePackage: Save=10.81ms
+[2017.10.21-07.03.17:779][862]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/W_GameHUD3FDED4974E7B21E8F35DF48272D6A14E.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset'
+[2017.10.21-07.03.17:781][862]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset
+[2017.10.21-07.05.08:641][815]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.21-07.05.08:911][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.21-07.05.08:970][815]LogSavePackage: Save=57.18ms
+[2017.10.21-07.05.08:970][815]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter30218ED24422D134DA46E1B278AE4C0A.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.21-07.05.08:972][815]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.21-07.06.32:834][922]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.21-07.06.33:387][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.21-07.06.33:447][922]LogSavePackage: Save=57.23ms
+[2017.10.21-07.06.33:447][922]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter7CFAA9BC467707E60C8231AF4F19E06D.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.21-07.06.33:449][922]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.21-07.07.59:617][120]LogSavePackage: Save=120.62ms
+[2017.10.21-07.07.59:617][120]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonExampleMap_Auto11E4D97E2437D9941A9E25FBA626A7782.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.10.21-07.07.59:618][120]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.10.21-07.07.59:619][120]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.148
+[2017.10.21-07.07.59:619][120]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.148
+[2017.10.21-07.07.59:626][120]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.10.21-07.07.59:643][120]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.10.21-07.07.59:644][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.10.21-07.07.59:703][120]LogSavePackage: Save=57.83ms
+[2017.10.21-07.07.59:703][120]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter_Auto1AD18252A43D949BA064C799D825CF48D.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2017.10.21-07.07.59:704][120]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset
+[2017.10.21-07.07.59:704][120]LogFileHelpers: Auto-saving content packages took 0.079
+[2017.10.21-07.08.41:635][500]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.21-07.08.41:960][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.21-07.08.42:021][500]LogSavePackage: Save=58.94ms
+[2017.10.21-07.08.42:021][500]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter7F4A82D14329E17DC9960DABFB2A3282.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.21-07.08.42:023][500]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.21-07.09.20:079][ 28]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.21-07.09.20:444][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.21-07.09.20:502][ 28]LogSavePackage: Save=56.73ms
+[2017.10.21-07.09.20:502][ 28]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter5E1128E64BE1F11A2920B29C7B74879F.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.21-07.09.20:505][ 28]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.21-07.09.21:594][132]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.21-07.09.21:605][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.21:605][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.21-07.09.21:605][132]PIE: New page: PIE session: FirstPersonExampleMap (Oct 21, 2017, 11:09:21 PM)
+[2017.10.21-07.09.21:605][132]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.21-07.09.21:627][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021617s)
+[2017.10.21-07.09.21:628][132]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.21-07.09.21:628][132]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2017.10.21-07.09.21:628][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022969s)
+[2017.10.21-07.09.21:650][132]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.21-07.09.21:660][132]LogInit: FAudioDevice initialized.
+[2017.10.21-07.09.21:719][132]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.21-07.09.21:723][132]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.10.21-15.09.21
+[2017.10.21-07.09.21:723][132]LogWorld: Bringing up level for play took: 0.002257
+[2017.10.21-07.09.21:730][132]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.07
+[2017.10.21-07.09.21:731][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.25:834][559]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.25:894][559]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.34:748][555]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.10.21-07.09.35:854][660]LogSavePackage: Save=113.94ms
+[2017.10.21-07.09.35:854][660]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonExampleMapE67BA0494EEE84B41A5306B56A66C7BB.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.10.21-07.09.35:858][660]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.10.21-07.09.37:084][660]LogSavePackage: Save=1199.57ms
+[2017.10.21-07.09.37:084][660]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonExampleMap_BuiltDataC61C5F364F68C544F87A42962C594572.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.10.21-07.09.37:086][660]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.10.21-07.09.37:818][707]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.21-07.09.37:828][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.37:828][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.21-07.09.37:828][707]PIE: New page: PIE session: FirstPersonExampleMap (Oct 21, 2017, 11:09:37 PM)
+[2017.10.21-07.09.37:828][707]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.21-07.09.37:849][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020658s)
+[2017.10.21-07.09.37:850][707]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.21-07.09.37:850][707]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2017.10.21-07.09.37:850][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022312s)
+[2017.10.21-07.09.37:871][707]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.21-07.09.37:880][707]LogInit: FAudioDevice initialized.
+[2017.10.21-07.09.37:911][707]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.21-07.09.37:914][707]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.10.21-15.09.37
+[2017.10.21-07.09.37:914][707]LogWorld: Bringing up level for play took: 0.002036
+[2017.10.21-07.09.37:915][707]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.254
+[2017.10.21-07.09.37:915][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.39:339][868]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.39:394][868]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.51:411][241]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.21-07.09.51:421][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.51:421][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.21-07.09.51:422][241]PIE: New page: PIE session: FirstPersonExampleMap (Oct 21, 2017, 11:09:51 PM)
+[2017.10.21-07.09.51:422][241]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.21-07.09.51:442][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020150s)
+[2017.10.21-07.09.51:443][241]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.21-07.09.51:443][241]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2017.10.21-07.09.51:443][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021466s)
+[2017.10.21-07.09.51:463][241]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.21-07.09.51:473][241]LogInit: FAudioDevice initialized.
+[2017.10.21-07.09.51:533][241]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.21-07.09.51:536][241]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.10.21-15.09.51
+[2017.10.21-07.09.51:536][241]LogWorld: Bringing up level for play took: 0.001972
+[2017.10.21-07.09.51:542][241]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.119
+[2017.10.21-07.09.51:543][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.53:321][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.09.53:385][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.10.55:429][107]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.21-07.10.55:439][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.10.55:439][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.21-07.10.55:440][107]PIE: New page: PIE session: FirstPersonExampleMap (Oct 21, 2017, 11:10:55 PM)
+[2017.10.21-07.10.55:440][107]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.21-07.10.55:459][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019682s)
+[2017.10.21-07.10.55:461][107]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.21-07.10.55:461][107]LogPlayLevel: PIE: World Init took: (0.001341s)
+[2017.10.21-07.10.55:461][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021302s)
+[2017.10.21-07.10.55:481][107]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.21-07.10.55:492][107]LogInit: FAudioDevice initialized.
+[2017.10.21-07.10.55:550][107]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.21-07.10.55:552][107]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.10.21-15.10.55
+[2017.10.21-07.10.55:552][107]LogWorld: Bringing up level for play took: 0.002004
+[2017.10.21-07.10.55:558][107]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.106
+[2017.10.21-07.10.55:559][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.10.57:731][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.10.57:796][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.11.40:016][ 77]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.21-07.11.40:026][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.11.40:026][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.21-07.11.40:027][ 77]PIE: New page: PIE session: FirstPersonExampleMap (Oct 21, 2017, 11:11:40 PM)
+[2017.10.21-07.11.40:027][ 77]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.21-07.11.40:046][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019520s)
+[2017.10.21-07.11.40:048][ 77]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.21-07.11.40:048][ 77]LogPlayLevel: PIE: World Init took: (0.001569s)
+[2017.10.21-07.11.40:048][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021451s)
+[2017.10.21-07.11.40:068][ 77]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.21-07.11.40:077][ 77]LogInit: FAudioDevice initialized.
+[2017.10.21-07.11.40:139][ 77]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.21-07.11.40:143][ 77]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.10.21-15.11.40
+[2017.10.21-07.11.40:143][ 77]LogWorld: Bringing up level for play took: 0.002443
+[2017.10.21-07.11.40:149][ 77]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.483
+[2017.10.21-07.11.40:149][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.11.48:264][565]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.11.48:327][565]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.12.06:179][582]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.21-07.12.06:426][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.21-07.12.06:525][582]LogSavePackage: Save=95.78ms
+[2017.10.21-07.12.06:525][582]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter585CFBCE4281B9A0E3B81D808BD40FEF.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.21-07.12.06:528][582]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.21-07.12.07:274][649]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.21-07.12.07:284][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.12.07:284][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.21-07.12.07:284][649]PIE: New page: PIE session: FirstPersonExampleMap (Oct 21, 2017, 11:12:07 PM)
+[2017.10.21-07.12.07:284][649]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.21-07.12.07:303][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018879s)
+[2017.10.21-07.12.07:304][649]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.21-07.12.07:305][649]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2017.10.21-07.12.07:305][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020584s)
+[2017.10.21-07.12.07:327][649]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.21-07.12.07:338][649]LogInit: FAudioDevice initialized.
+[2017.10.21-07.12.07:399][649]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.21-07.12.07:402][649]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.10.21-15.12.07
+[2017.10.21-07.12.07:402][649]LogWorld: Bringing up level for play took: 0.001872
+[2017.10.21-07.12.07:408][649]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.259
+[2017.10.21-07.12.07:409][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.12.08:953][801]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 0.45
+[2017.10.21-07.12.10:173][929]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 0.4
+[2017.10.21-07.12.11:315][ 48]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 0.35
+[2017.10.21-07.12.12:216][141]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.12.12:301][141]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.12.33:317][616]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.21-07.12.33:509][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.21-07.12.33:568][616]LogSavePackage: Save=57.30ms
+[2017.10.21-07.12.33:568][616]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter670BE54345BAFCAC99DFA2B9CB056634.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.21-07.12.33:570][616]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.21-07.12.34:171][669]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.21-07.12.34:182][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.12.34:182][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.21-07.12.34:182][669]PIE: New page: PIE session: FirstPersonExampleMap (Oct 21, 2017, 11:12:34 PM)
+[2017.10.21-07.12.34:182][669]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.21-07.12.34:205][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022504s)
+[2017.10.21-07.12.34:206][669]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.21-07.12.34:206][669]LogPlayLevel: PIE: World Init took: (0.001287s)
+[2017.10.21-07.12.34:207][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024084s)
+[2017.10.21-07.12.34:228][669]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.21-07.12.34:238][669]LogInit: FAudioDevice initialized.
+[2017.10.21-07.12.34:295][669]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.21-07.12.34:298][669]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.10.21-15.12.34
+[2017.10.21-07.12.34:298][669]LogWorld: Bringing up level for play took: 0.001917
+[2017.10.21-07.12.34:308][669]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.639
+[2017.10.21-07.12.34:308][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.12.41:692][495]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-07.12.41:756][495]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
