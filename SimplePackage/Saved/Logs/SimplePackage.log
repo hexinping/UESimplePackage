@@ -215,3 +215,91 @@ LogInit: Object subsystem initialized
 [2017.10.21-06.35.52:937][  3]LogHttp:Warning: 000000005C8EAF80 Response Header Content-Length: 138
 [2017.10.21-06.36.00:439][595]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
 [2017.10.21-06.36.52:592][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2017.10.21-06.37.56:417][325]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.21-06.37.56:425][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-06.37.56:425][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.21-06.37.56:425][325]PIE: New page: PIE session: FirstPersonExampleMap (Oct 21, 2017, 10:37:56 PM)
+[2017.10.21-06.37.56:425][325]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.21-06.37.56:450][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024947s)
+[2017.10.21-06.37.56:452][325]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.21-06.37.56:452][325]LogPlayLevel: PIE: World Init took: (0.001724s)
+[2017.10.21-06.37.56:452][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026935s)
+[2017.10.21-06.37.56:469][325]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.21-06.37.56:480][325]LogInit: FAudioDevice initialized.
+[2017.10.21-06.37.56:522][325]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.21-06.37.56:525][325]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.10.21-14.37.56
+[2017.10.21-06.37.56:526][325]LogWorld: Bringing up level for play took: 0.002070
+[2017.10.21-06.37.56:557][325]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.10.21-06.37.56:558][325]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.986
+[2017.10.21-06.37.56:558][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-06.38.02:780][ 63]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-06.38.02:845][ 63]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.21-06.38.55:622][392]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.21-06.38.56:004][392]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.10.21-06.38.56:534][392]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.21-06.38.56:613][392]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.21-06.38.56:860][393]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.21-06.39.29:594][367]LogSlate: Took 0.003629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.21-06.39.39:799][233]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.21-06.39.40:223][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.21-06.39.40:284][233]LogSavePackage: Save=59.53ms
+[2017.10.21-06.39.40:284][233]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter598641934FC5446CBA558D9ED240C00F.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.21-06.39.40:286][233]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.21-06.39.42:158][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.21-06.39.42:211][397]LogSavePackage: Save=51.16ms
+[2017.10.21-06.39.42:211][397]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter7B6B4E5C48C494DFDCA8BDB917A3C12C.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.21-06.39.42:212][397]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.21-06.39.58:492][939]LogSlate: Took 0.013243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.10.21-06.40.26:592][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.21-06.40.26:653][467]LogSavePackage: Save=59.11ms
+[2017.10.21-06.40.26:653][467]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter7ECCB8EA4C68BBB8DA6CEC824C86F8DE.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.21-06.40.26:655][467]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.21-06.40.27:540][547]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.21-06.41.17:492][138]BlueprintLog: New page: Compile FirstPersonHUD
+[2017.10.21-06.41.17:736][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonHUD" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" SILENT=true
+[2017.10.21-06.41.17:749][138]LogSavePackage: Save=9.78ms
+[2017.10.21-06.41.17:749][138]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonHUD8B54F4B9448B0BC6C42CA69F805ECCE1.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2017.10.21-06.41.17:752][138]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.10.21-06.41.20:036][409]BlueprintLog: New page: Compile FirstPersonHUD
+[2017.10.21-06.41.20:155][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonHUD" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" SILENT=true
+[2017.10.21-06.41.20:166][409]LogSavePackage: Save=9.72ms
+[2017.10.21-06.41.20:166][409]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonHUD56467C244BC5B887830B2EADE6E97756.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2017.10.21-06.41.20:168][409]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.10.21-06.41.20:639][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonHUD" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" SILENT=true
+[2017.10.21-06.41.20:649][459]LogSavePackage: Save=9.06ms
+[2017.10.21-06.41.20:649][459]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonHUDC14E57404C11B3C724228EBB9F90F20F.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2017.10.21-06.41.20:650][459]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.10.21-06.42.31:824][ 59]BlueprintLog: New page: Compile FirstPersonHUD
+[2017.10.21-06.42.31:928][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonHUD" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" SILENT=true
+[2017.10.21-06.42.31:940][ 59]LogSavePackage: Save=9.83ms
+[2017.10.21-06.42.31:940][ 59]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonHUD1377344143F13712D189EC8C9B9AA7C2.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2017.10.21-06.42.31:942][ 59]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.10.21-06.43.54:852][244]BlueprintLog: New page: Compile BPI_ActionInterface
+[2017.10.21-06.43.54:996][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/BPI_ActionInterface" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/BPI_ActionInterface.uasset" SILENT=true
+[2017.10.21-06.43.55:001][244]LogSavePackage: Save=3.28ms
+[2017.10.21-06.43.55:001][244]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/BPI_ActionInterfaceC53017D1491C53C9D611D89C3599C421.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/BPI_ActionInterface.uasset'
+[2017.10.21-06.43.55:002][244]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/BPI_ActionInterface.uasset
+[2017.10.21-06.45.34:956][ 90]BlueprintLog: New page: Compile BPI_ActionInterface
+[2017.10.21-06.45.35:096][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/BPI_ActionInterface" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/BPI_ActionInterface.uasset" SILENT=true
+[2017.10.21-06.45.35:100][ 90]LogSavePackage: Save=2.17ms
+[2017.10.21-06.45.35:100][ 90]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/BPI_ActionInterfaceFC79D3B34C5B48DC9128E88C2A693C3A.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/BPI_ActionInterface.uasset'
+[2017.10.21-06.45.35:101][ 90]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/BPI_ActionInterface.uasset
+[2017.10.21-06.46.38:652][124]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InventoryStruct.InventoryStruct' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewUserDefinedStruct.PackageMetaData'
+[2017.10.21-06.46.38:652][124]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InventoryStruct.InventoryStruct:MemberVar_0_663CAF6F48E2A83D3ADA9AA807A800BC' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewUserDefinedStruct.PackageMetaData'
+[2017.10.21-06.46.38:678][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/InventoryStruct" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/InventoryStruct.uasset" SILENT=true
+[2017.10.21-06.46.38:681][124]LogSavePackage: Save=1.54ms
+[2017.10.21-06.46.38:681][124]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/InventoryStruct88CBA14F476B0FF01ED5B3B371BAC27A.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/InventoryStruct.uasset'
+[2017.10.21-06.46.38:683][124]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/InventoryStruct.uasset
+[2017.10.21-06.48.08:337][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/InventoryStruct" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/InventoryStruct.uasset" SILENT=true
+[2017.10.21-06.48.08:341][866]LogSavePackage: Save=1.93ms
+[2017.10.21-06.48.08:341][866]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/InventoryStructBAAA719F408648AE6C79B5A9C888C608.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/InventoryStruct.uasset'
+[2017.10.21-06.48.08:344][866]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/InventoryStruct.uasset
+[2017.10.21-06.48.29:446][480]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.10.21-06.48.30:733][597]LogSavePackage: Save=114.51ms
+[2017.10.21-06.48.30:733][597]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/FirstPersonExampleMap5F954B5F43A1C1D3528797A36D3EECCA.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.10.21-06.48.30:735][597]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.10.21-06.48.30:745][597]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.177
+[2017.10.21-06.48.30:748][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/NewUserDefinedStruct" FILE="D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/NewUserDefinedStruct.uasset" SILENT=true
+[2017.10.21-06.48.30:750][597]LogSavePackage: Save=1.34ms
+[2017.10.21-06.48.30:750][597]LogSavePackage: Moving 'D:/UE/UESimplePackage/SimplePackage/Saved/NewUserDefinedStruct0F9CD7E44630E84BA5BD2B9B73E287E4.tmp' to 'D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/NewUserDefinedStruct.uasset'
+[2017.10.21-06.48.30:752][597]LogSavePackage:Display: Finished SavePackage D:/UE/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/NewUserDefinedStruct.uasset
