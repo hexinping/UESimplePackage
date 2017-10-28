@@ -1,9 +1,9 @@
-﻿Log file open, 10/23/17 21:24:34
+﻿Log file open, 10/28/17 18:43:24
 LogInit:Display: Running engine for game: SimplePackage
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(661077365) SRandInit(661077365).
+LogInit:Display: RandInit(1137612090) SRandInit(1137612090).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.131709
+LogStats: Stats thread started at 0.183173
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,196 +48,198 @@ LogInit: Base directory: D:/Program Files/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.23-13.24.36:074][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.23-13.24.36:074][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.23-13.24.36:155][  0]LogInit: Computer: HEXINPING-PC
-[2017.10.23-13.24.36:155][  0]LogInit: User: hexinping
-[2017.10.23-13.24.36:155][  0]LogInit: CPU Page size=65536, Cores=2
-[2017.10.23-13.24.36:155][  0]LogInit: High frequency timer resolution =2.435869 MHz
-[2017.10.23-13.24.36:155][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2017.10.23-13.24.36:155][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.23-13.24.36:155][  0]LogMemory: Process Physical Memory: 264.02 MB used, 264.02 MB peak
-[2017.10.23-13.24.36:155][  0]LogMemory: Process Virtual Memory: 263.78 MB used, 263.78 MB peak
-[2017.10.23-13.24.36:156][  0]LogMemory: Physical Memory: 3189.83 MB used,  4732.79 MB free, 7922.62 MB total
-[2017.10.23-13.24.36:156][  0]LogMemory: Virtual Memory: 629.98 MB used,  4732.79 MB free, 8388608.00 MB total
-[2017.10.23-13.24.36:463][  0]LogInit: Overriding culture en with editor configuration.
-[2017.10.23-13.24.37:913][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using IMM (搜狗拼音输入).
-[2017.10.23-13.24.39:094][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.23-13.24.39:120][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.10.23-13.24.39:120][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
-[2017.10.23-13.24.39:120][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.23-13.24.39:135][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.23-13.24.39:135][  0]LogD3D11RHI:     GPU DeviceId: 0x416 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.23-13.24.39:135][  0]LogWindows: EnumDisplayDevices:
-[2017.10.23-13.24.39:136][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:0 D:1)
-[2017.10.23-13.24.39:138][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.10.23-13.24.39:140][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.10.23-13.24.39:141][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
-[2017.10.23-13.24.39:142][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.10.23-13.24.39:144][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.10.23-13.24.39:145][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
-[2017.10.23-13.24.39:145][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
-[2017.10.23-13.24.39:145][  0]LogD3D11RHI:   Driver Version: 10.18.14.4578 (internal:10.18.14.4578, unified:10.18.14.4578)
-[2017.10.23-13.24.39:145][  0]LogD3D11RHI:      Driver Date: 1-4-2017
-[2017.10.23-13.24.39:145][  0]LogRHI: Texture pool is 705 MB (70% of 1008 MB)
-[2017.10.23-13.24.39:176][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.23-13.24.39:187][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2017.10.23-13.24.39:188][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (E:/UEStudy/UESimplePackage/SimplePackage/Intermediate/Shaders/WorkingDirectory/4044/).
-[2017.10.23-13.24.39:189][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hexinping/AppData/Local/Temp/UnrealShaderWorkingDir/92CC804E4AA32BFC30131F8161FD8137/'.
-[2017.10.23-13.24.39:189][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.10.23-13.24.43:358][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.23-13.24.43:499][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.10.23-13.24.43:620][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.23-13.24.43:736][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.10.23-13.24.43:859][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.10.23-13.24.43:985][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.23-13.24.44:103][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.23-13.24.44:213][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.23-13.24.44:296][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.10.23-13.24.44:422][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.10.23-13.24.44:549][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.23-13.24.44:656][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.23-13.24.44:758][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.23-13.24.44:860][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.23-13.24.44:959][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.23-13.24.45:162][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.23-13.24.45:162][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.23-13.24.45:224][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.10.23-13.24.45:388][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.10.23-13.24.45:451][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.10.23-13.24.45:543][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.23-13.24.45:638][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.23-13.24.45:731][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.23-13.24.45:819][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.10.23-13.24.45:819][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.10.23-13.24.46:554][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.10.23-13.24.46:669][  0]LogDerivedDataCache: Loaded boot cache 0.11s 50MB C:/Users/hexinping/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.10.23-13.24.46:669][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/hexinping/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.10.23-13.24.46:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UEStudy/UESimplePackage/SimplePackage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.23-13.24.46:669][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.23-13.24.46:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UEStudy/UESimplePackage/SimplePackage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.23-13.24.46:669][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.23-13.24.46:721][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.23-13.24.46:736][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hexinping/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.23-13.24.46:758][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.23-13.24.46:759][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.23-13.24.46:759][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.23-13.24.47:349][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.23-13.24.47:353][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.23-13.24.47:761][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.23-13.24.47:807][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.23-13.24.47:865][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.23-13.24.47:865][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.10.23-13.24.47:865][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.10.23-13.24.49:741][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: simplepackage, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4156989846
-[2017.10.23-13.24.49:801][  0]LogAssetRegistry: FAssetRegistry took 0.0200 seconds to start up
-[2017.10.23-13.24.49:877][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.041322 seconds
-[2017.10.23-13.24.49:889][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.10.23-13.24.49:889][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.10.23-13.24.49:889][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.23-13.24.49:995][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.23-13.24.54:182][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.23-13.24.54:253][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.23-13.24.54:257][  0]FUdpSocketBuilder: Failed to bind UdpMessageMulticastSocket to 0.0.0.0:6666
-[2017.10.23-13.24.54:257][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageMulticastSocket (loopback: 1, ttl: 1)
-[2017.10.23-13.24.54:257][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
-[2017.10.23-13.24.54:257][  0]LogUdpMessaging:Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
-[2017.10.23-13.24.55:542][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.23-13.24.56:416][  0]SourceControl: Info Source control is disabled
-[2017.10.23-13.24.56:616][  0]SourceControl: Info Source control is disabled
-[2017.10.23-13.24.56:719][  0]SourceControl: Info Source control is disabled
-[2017.10.23-13.24.56:805][  0]SourceControl: Info Source control is disabled
-[2017.10.23-13.24.58:846][  0]LogEngine: Initializing Engine...
-[2017.10.23-13.24.58:849][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.23-13.24.59:069][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.23-13.24.59:069][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.23-13.24.59:222][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.23-13.24.59:263][  0]LogInit: XAudio2 using '扬声器 (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.23-13.24.59:298][  0]LogInit: FAudioDevice initialized.
-[2017.10.23-13.24.59:345][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/hexinping/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.10.23-13.24.59:353][  0]LogInit: Texture streaming: Enabled
-[2017.10.23-13.24.59:468][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.23-13.24.59:669][  0]LogInit: Transaction tracking system initialized
-[2017.10.23-13.25.00:080][  0]BlueprintLog: New page: Editor Load
-[2017.10.23-13.25.01:309][  0]LocalizationService: Info Localization service is disabled
-[2017.10.23-13.25.02:473][  0]LogConsoleResponse:Display: 
-[2017.10.23-13.25.02:662][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.23-13.25.02:662][  0]LogCook:Display: Mobile HDR setting 1
-[2017.10.23-13.25.03:141][  0]LogFileCache: Scanning file cache for directory 'E:/UEStudy/UESimplePackage/SimplePackage/Content/' took 0.03s
-[2017.10.23-13.25.03:842][  0]SourceControl: Info Source control is disabled
-[2017.10.23-13.25.03:842][  0]Cmd: MAP LOAD FILE="E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-13.25.03:843][  0]LightingResults: New page: Lighting Build
-[2017.10.23-13.25.03:880][  0]MapCheck: New page: Map Check
-[2017.10.23-13.25.03:880][  0]LightingResults: New page: Lighting Build
-[2017.10.23-13.25.04:563][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.10.23-13.25.04:602][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-13.25.04:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-13.25.04:642][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.683ms to complete.
-[2017.10.23-13.25.04:642][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.799
-[2017.10.23-13.25.04:755][  0]LogCollectionManager: Loaded 0 collections in 0.002753 seconds
-[2017.10.23-13.25.04:831][  0]LogFileCache: Scanning file cache for directory 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/Collections/' took 0.01s
-[2017.10.23-13.25.04:831][  0]LogFileCache: Scanning file cache for directory 'E:/UEStudy/UESimplePackage/SimplePackage/Content/Developers/hexinping/Collections/' took 0.01s
-[2017.10.23-13.25.04:831][  0]LogFileCache: Scanning file cache for directory 'E:/UEStudy/UESimplePackage/SimplePackage/Content/Collections/' took 0.01s
-[2017.10.23-13.25.04:831][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.10.23-13.25.04:840][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2245 classes and 453 folders.
-[2017.10.23-13.25.04:899][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2017.10.23-13.25.05:156][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
-[2017.10.23-13.25.05:651][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
-[2017.10.23-13.25.05:780][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.10.23-13.25.05:804][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.10.23-13.25.05:981][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
-[2017.10.23-13.25.05:982][  0]LogLoad: (Engine Initialization) Total time: 34.79 seconds
-[2017.10.23-13.25.05:982][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.30 seconds
-[2017.10.23-13.25.05:982][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.23-13.25.05:982][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.23-13.25.06:364][  0]LogOcInput: OculusInput pre-init called
-[2017.10.23-13.25.06:392][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.10.23-13.25.06:394][  0]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.23-13.25.06:408][  0]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.23-13.25.06:412][  0]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.23-13.25.06:533][  0]LogSlate: Took 0.000764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-13.25.06:802][  0]LogRenderer: Reallocating scene render targets to support 1108x936 NumSamples 1 (Frame:2).
-[2017.10.23-13.25.08:772][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
-[2017.10.23-13.25.08:848][  3]LogAssetRegistry: Asset discovery search completed in 19.0661 seconds
-[2017.10.23-13.25.08:848][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
-[2017.10.23-13.25.20:116][131]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2017.10.23-13.25.34:850][231]LogSlate: Took 0.000724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-13.25.35:787][231]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.23-13.25.37:063][231]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0033 seconds. Added 112 classes and 0 folders.
-[2017.10.23-13.25.40:561][231]LogSlate: Took 0.000589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.10.23-13.25.47:235][335]LogSlate: Took 0.010600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2017.10.23-13.25.54:793][548]LogSlate: Took 0.002445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.10.23-13.28.37:223][977]LogTexture:Display: Building textures: Can (BGRA8, 82X82) - 112 MB total VRAM
-[2017.10.23-13.32.07:095][645]LogSlate: Took 0.046753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.10.23-13.35.06:650][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.169
-[2017.10.23-13.35.06:657][ 76]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TemPlatePickUp] ([1] browsable assets)...
-[2017.10.23-13.35.06:696][ 76]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TemPlatePickUp.TemPlatePickUp]
-[2017.10.23-13.35.06:696][ 76]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TemPlatePickUp]
-[2017.10.23-13.35.06:769][ 76]LogSavePackage: Save=59.39ms
-[2017.10.23-13.35.06:769][ 76]LogSavePackage: Moving 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/TemPlatePickUp_Auto148F261A04D6308AB8A6E11AF76291628.tmp' to 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TemPlatePickUp_Auto1.uasset'
-[2017.10.23-13.35.06:777][ 76]LogSavePackage:Display: Finished SavePackage E:/UEStudy/UESimplePackage/SimplePackage/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TemPlatePickUp_Auto1.uasset
-[2017.10.23-13.35.06:777][ 76]LogFileHelpers: Auto-saving content packages took 0.125
-[2017.10.23-13.43.05:097][168]BlueprintLog: New page: Compile TemPlatePickUp
-[2017.10.23-13.43.05:640][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemPlatePickUp" FILE="E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/TemPlatePickUp.uasset" SILENT=true
-[2017.10.23-13.43.05:749][168]LogSavePackage: Save=37.46ms
-[2017.10.23-13.43.05:749][168]LogSavePackage: Moving 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/TemPlatePickUpA1BC3343425E13EEC516DBAB4A3BAB6E.tmp' to 'E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/TemPlatePickUp.uasset'
-[2017.10.23-13.43.05:755][168]LogSavePackage:Display: Finished SavePackage E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/TemPlatePickUp.uasset
-[2017.10.23-13.43.25:896][757]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.10.23-13.43.36:108][183]BlueprintLog: New page: Compile TemPlatePickUp
-[2017.10.23-13.43.36:657][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemPlatePickUp" FILE="E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/TemPlatePickUp.uasset" SILENT=true
-[2017.10.23-13.43.36:728][183]LogSavePackage: Save=61.90ms
-[2017.10.23-13.43.36:728][183]LogSavePackage: Moving 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/TemPlatePickUpAD65E13045EF989E7FCBA8896E35157A.tmp' to 'E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/TemPlatePickUp.uasset'
-[2017.10.23-13.43.36:738][183]LogSavePackage:Display: Finished SavePackage E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/TemPlatePickUp.uasset
-[2017.10.23-13.47.08:829][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.051
-[2017.10.23-13.47.08:834][663]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TemPlatePickUp] ([1] browsable assets)...
-[2017.10.23-13.47.08:856][663]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TemPlatePickUp.TemPlatePickUp]
-[2017.10.23-13.47.08:856][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TemPlatePickUp]
-[2017.10.23-13.47.08:906][663]LogSavePackage: Save=45.06ms
-[2017.10.23-13.47.08:906][663]LogSavePackage: Moving 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/TemPlatePickUp_Auto26EBA1C714E98E7BE2C6188BC572C8F83.tmp' to 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TemPlatePickUp_Auto2.uasset'
-[2017.10.23-13.47.08:909][663]LogSavePackage:Display: Finished SavePackage E:/UEStudy/UESimplePackage/SimplePackage/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TemPlatePickUp_Auto2.uasset
-[2017.10.23-13.47.08:909][663]LogFileHelpers: Auto-saving content packages took 0.079
-[2017.10.23-13.51.04:393][366]BlueprintLog: New page: Compile TemPlatePickUp
-[2017.10.23-13.51.04:991][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemPlatePickUp" FILE="E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/TemPlatePickUp.uasset" SILENT=true
-[2017.10.23-13.51.05:128][366]LogSavePackage: Save=122.85ms
-[2017.10.23-13.51.05:128][366]LogSavePackage: Moving 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/TemPlatePickUp4268EF494314A8653AB52B8155A3339A.tmp' to 'E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/TemPlatePickUp.uasset'
-[2017.10.23-13.51.05:142][366]LogSavePackage:Display: Finished SavePackage E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/TemPlatePickUp.uasset
+[2017.10.28-10.43.26:754][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.28-10.43.26:754][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.28-10.43.26:787][  0]LogInit: Computer: HEXINPING-PC
+[2017.10.28-10.43.26:787][  0]LogInit: User: hexinping
+[2017.10.28-10.43.26:787][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.10.28-10.43.26:787][  0]LogInit: High frequency timer resolution =2.435810 MHz
+[2017.10.28-10.43.26:788][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2017.10.28-10.43.26:788][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.28-10.43.26:788][  0]LogMemory: Process Physical Memory: 264.18 MB used, 264.18 MB peak
+[2017.10.28-10.43.26:788][  0]LogMemory: Process Virtual Memory: 263.80 MB used, 263.80 MB peak
+[2017.10.28-10.43.26:788][  0]LogMemory: Physical Memory: 4331.31 MB used,  3591.30 MB free, 7922.62 MB total
+[2017.10.28-10.43.26:788][  0]LogMemory: Virtual Memory: 629.98 MB used,  3591.30 MB free, 8388608.00 MB total
+[2017.10.28-10.43.27:294][  0]LogInit: Overriding culture en with editor configuration.
+[2017.10.28-10.43.29:002][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using IMM (搜狗拼音输入).
+[2017.10.28-10.43.29:941][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.28-10.43.29:973][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.28-10.43.29:973][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.10.28-10.43.29:973][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.28-10.43.29:992][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.28-10.43.29:992][  0]LogD3D11RHI:     GPU DeviceId: 0x416 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.28-10.43.29:992][  0]LogWindows: EnumDisplayDevices:
+[2017.10.28-10.43.29:993][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.10.28-10.43.29:994][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.28-10.43.29:997][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.28-10.43.30:000][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.28-10.43.30:002][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.28-10.43.30:003][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.28-10.43.30:004][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2017.10.28-10.43.30:004][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2017.10.28-10.43.30:004][  0]LogD3D11RHI:   Driver Version: 10.18.14.4578 (internal:10.18.14.4578, unified:10.18.14.4578)
+[2017.10.28-10.43.30:004][  0]LogD3D11RHI:      Driver Date: 1-4-2017
+[2017.10.28-10.43.30:004][  0]LogRHI: Texture pool is 705 MB (70% of 1008 MB)
+[2017.10.28-10.43.30:036][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.28-10.43.30:051][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.10.28-10.43.30:052][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (E:/UEStudy/UESimplePackage/SimplePackage/Intermediate/Shaders/WorkingDirectory/8104/).
+[2017.10.28-10.43.30:053][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hexinping/AppData/Local/Temp/UnrealShaderWorkingDir/1D14E875424D1F0900B779B5759D0218/'.
+[2017.10.28-10.43.30:053][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.28-10.43.34:317][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.28-10.43.34:416][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.28-10.43.34:561][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.28-10.43.34:757][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.28-10.43.34:955][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.28-10.43.35:150][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.28-10.43.35:326][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.28-10.43.35:497][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.28-10.43.35:629][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.28-10.43.35:783][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.28-10.43.35:950][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.28-10.43.36:175][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.28-10.43.36:341][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.28-10.43.36:505][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.28-10.43.36:712][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.28-10.43.37:098][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.28-10.43.37:098][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.28-10.43.37:236][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.28-10.43.37:541][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.28-10.43.37:670][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.28-10.43.37:880][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.28-10.43.38:109][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.28-10.43.38:343][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.28-10.43.38:631][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.28-10.43.38:632][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.28-10.43.40:199][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.28-10.43.41:089][  0]LogDerivedDataCache: Loaded boot cache 0.89s 50MB C:/Users/hexinping/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.28-10.43.41:089][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/hexinping/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.10.28-10.43.41:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UEStudy/UESimplePackage/SimplePackage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.28-10.43.41:090][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.28-10.43.41:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UEStudy/UESimplePackage/SimplePackage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.28-10.43.41:090][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.28-10.43.41:165][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.28-10.43.41:186][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hexinping/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.28-10.43.41:220][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.28-10.43.41:221][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.28-10.43.41:222][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.28-10.43.42:316][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.28-10.43.42:325][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.28-10.43.43:065][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.28-10.43.43:146][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.28-10.43.43:249][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.28-10.43.43:249][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.28-10.43.43:249][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.28-10.43.44:556][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: simplepackage, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4156989846
+[2017.10.28-10.43.44:638][  0]LogAssetRegistry: FAssetRegistry took 0.0379 seconds to start up
+[2017.10.28-10.43.44:725][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.039539 seconds
+[2017.10.28-10.43.44:738][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.10.28-10.43.44:738][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.10.28-10.43.44:738][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.28-10.43.44:866][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.28-10.43.47:299][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.28-10.43.47:344][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.28-10.43.47:346][  0]FUdpSocketBuilder: Failed to bind UdpMessageMulticastSocket to 0.0.0.0:6666
+[2017.10.28-10.43.47:346][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageMulticastSocket (loopback: 1, ttl: 1)
+[2017.10.28-10.43.47:346][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2017.10.28-10.43.47:346][  0]LogUdpMessaging:Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2017.10.28-10.43.47:948][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.28-10.43.48:557][  0]SourceControl: Info Source control is disabled
+[2017.10.28-10.43.48:645][  0]SourceControl: Info Source control is disabled
+[2017.10.28-10.43.48:708][  0]SourceControl: Info Source control is disabled
+[2017.10.28-10.43.48:758][  0]SourceControl: Info Source control is disabled
+[2017.10.28-10.43.50:255][  0]LogEngine: Initializing Engine...
+[2017.10.28-10.43.50:256][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.28-10.43.50:398][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.28-10.43.50:398][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.28-10.43.50:534][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.28-10.43.50:570][  0]LogInit: XAudio2 using '扬声器 (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.28-10.43.50:602][  0]LogInit: FAudioDevice initialized.
+[2017.10.28-10.43.50:645][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/hexinping/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.28-10.43.50:653][  0]LogInit: Texture streaming: Enabled
+[2017.10.28-10.43.50:738][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.28-10.43.50:818][  0]LogInit: Transaction tracking system initialized
+[2017.10.28-10.43.51:139][  0]BlueprintLog: New page: Editor Load
+[2017.10.28-10.43.51:856][  0]LocalizationService: Info Localization service is disabled
+[2017.10.28-10.43.52:805][  0]LogConsoleResponse:Display: 
+[2017.10.28-10.43.52:960][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.28-10.43.52:960][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.28-10.43.53:866][  0]LogFileCache: Scanning file cache for directory 'E:/UEStudy/UESimplePackage/SimplePackage/Content/' took 0.02s
+[2017.10.28-10.43.53:912][  0]SourceControl: Info Source control is disabled
+[2017.10.28-10.43.53:912][  0]Cmd: MAP LOAD FILE="E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.28-10.43.53:913][  0]LightingResults: New page: Lighting Build
+[2017.10.28-10.43.53:947][  0]MapCheck: New page: Map Check
+[2017.10.28-10.43.53:947][  0]LightingResults: New page: Lighting Build
+[2017.10.28-10.43.54:894][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.28-10.43.54:939][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.28-10.43.54:939][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.28-10.43.54:996][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.69ms to complete.
+[2017.10.28-10.43.54:996][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.083
+[2017.10.28-10.43.55:142][  0]LogCollectionManager: Loaded 0 collections in 0.005924 seconds
+[2017.10.28-10.43.55:227][  0]LogFileCache: Scanning file cache for directory 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/Collections/' took 0.01s
+[2017.10.28-10.43.55:227][  0]LogFileCache: Scanning file cache for directory 'E:/UEStudy/UESimplePackage/SimplePackage/Content/Developers/hexinping/Collections/' took 0.01s
+[2017.10.28-10.43.55:227][  0]LogFileCache: Scanning file cache for directory 'E:/UEStudy/UESimplePackage/SimplePackage/Content/Collections/' took 0.01s
+[2017.10.28-10.43.55:227][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.28-10.43.55:239][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2245 classes and 453 folders.
+[2017.10.28-10.43.55:310][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.28-10.43.55:392][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.28-10.43.55:540][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.28-10.43.55:598][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.28-10.43.55:606][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.28-10.43.55:715][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.28-10.43.55:715][  0]LogLoad: (Engine Initialization) Total time: 34.32 seconds
+[2017.10.28-10.43.55:715][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.38 seconds
+[2017.10.28-10.43.55:715][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.28-10.43.55:715][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.28-10.43.56:054][  0]LogOcInput: OculusInput pre-init called
+[2017.10.28-10.43.56:082][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.10.28-10.43.56:083][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.28-10.43.56:095][  0]LogSlate: Took 0.000669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.28-10.43.56:097][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.28-10.43.56:153][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.28-10.43.56:328][  0]LogRenderer: Reallocating scene render targets to support 1108x936 NumSamples 1 (Frame:2).
+[2017.10.28-10.43.57:321][  2]LogAssetRegistry: Asset discovery search completed in 12.7202 seconds
+[2017.10.28-10.43.57:321][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.10.28-10.43.57:321][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.10.28-10.45.40:612][323]LogSlate: Took 0.000541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.28-10.45.41:408][323]LogSlate: Took 0.000538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.28-10.45.42:120][323]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 112 classes and 0 folders.
+[2017.10.28-10.45.43:953][323]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.28-10.45.43:998][323]LogSlate: Took 0.004245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.10.28-10.47.51:982][318]BlueprintLog: New page: Compile W_GameHUD
+[2017.10.28-10.47.52:464][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/W_GameHUD" FILE="E:/UEStudy/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset" SILENT=true
+[2017.10.28-10.47.52:558][318]LogSavePackage: Save=83.00ms
+[2017.10.28-10.47.52:558][318]LogSavePackage: Moving 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/W_GameHUD7D90A8874E0B46DB6B3DC8AE20016750.tmp' to 'E:/UEStudy/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset'
+[2017.10.28-10.47.52:564][318]LogSavePackage:Display: Finished SavePackage E:/UEStudy/UESimplePackage/SimplePackage/Content/UMG/W_GameHUD.uasset
+[2017.10.28-10.48.06:432][473]LogSlate: Took 0.000686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.28-10.50.06:197][ 29]LogHttp:Warning: 00000000531F2500: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.10.28-10.50.06:197][ 29]LogHttp:Warning: 00000000531F2500: libcurl info message cache 0 (Connection 1 seems to be dead!)
+[2017.10.28-10.50.06:197][ 29]LogHttp:Warning: 00000000531F2500: libcurl info message cache 1 (Closing connection 1)
+[2017.10.28-10.50.06:197][ 29]LogHttp:Warning: 00000000531F2500: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.10.28-10.50.06:197][ 29]LogHttp:Warning: 00000000531F2500: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.10.28-10.50.06:197][ 29]LogHttp:Warning: 00000000531F2500: libcurl info message cache 4 (connect to 119.28.34.46 port 443 failed: Timed out)
+[2017.10.28-10.50.06:197][ 29]LogHttp:Warning: 00000000531F2500: libcurl info message cache 5 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2017.10.28-10.50.06:197][ 29]LogHttp:Warning: 00000000531F2500: libcurl info message cache 6 (Closing connection 2)
+[2017.10.28-10.51.09:696][ 25]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.28-10.51.10:471][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.10.28-10.51.10:578][ 25]LogSavePackage: Save=99.48ms
+[2017.10.28-10.51.10:578][ 25]LogSavePackage: Moving 'E:/UEStudy/UESimplePackage/SimplePackage/Saved/FirstPersonCharacter915DCF224C015BF392F9F39ED02EA3AD.tmp' to 'E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.28-10.51.10:583][ 25]LogSavePackage:Display: Finished SavePackage E:/UEStudy/UESimplePackage/SimplePackage/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.28-10.51.11:800][ 68]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.28-10.51.11:826][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.28-10.51.11:826][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.28-10.51.11:827][ 68]PIE: New page: PIE session: FirstPersonExampleMap (Oct 29, 2017, 2:51:11 AM)
+[2017.10.28-10.51.11:827][ 68]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.28-10.51.11:857][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030302s)
+[2017.10.28-10.51.11:873][ 68]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.28-10.51.11:874][ 68]LogPlayLevel: PIE: World Init took: (0.017034s)
+[2017.10.28-10.51.11:875][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.048305s)
+[2017.10.28-10.51.11:923][ 68]LogInit: XAudio2 using '扬声器 (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.28-10.51.11:942][ 68]LogInit: FAudioDevice initialized.
+[2017.10.28-10.51.12:039][ 68]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.28-10.51.12:043][ 68]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.10.28-18.51.12
+[2017.10.28-10.51.12:043][ 68]LogWorld: Bringing up level for play took: 0.003790
+[2017.10.28-10.51.12:146][ 68]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0027 seconds. Added 11 classes and 0 folders.
+[2017.10.28-10.51.12:202][ 68]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.36
+[2017.10.28-10.51.12:203][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.28-10.51.29:053][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.28-10.51.29:214][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
